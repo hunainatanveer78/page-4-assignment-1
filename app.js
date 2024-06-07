@@ -1,0 +1,11 @@
+var mt=prompt('Enter The Marks of Maths out of 100')
+var sc=prompt('Enter The Marks of science out of 100')      
+var ss=prompt('Enter The Marks of s.st out of 100')
+var en=prompt('Enter The Marks of English out of 100')
+var ur=prompt('Enter The Marks of Urdu out of 100')
+var total=Number(mt)+Number(sc)+Number(ss)+Number(en)+Number(ur)
+var avg=Number(total)/5;
+var pc=Number(total)*100/500 ;
+document.write('total marks of subj=' +total)
+document.write('<br>Average=' +avg)
+document.write('<br>percentage=' +pc)
